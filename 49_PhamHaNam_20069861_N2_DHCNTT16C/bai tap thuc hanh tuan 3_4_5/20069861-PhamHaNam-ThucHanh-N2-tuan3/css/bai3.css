@@ -1,0 +1,12 @@
+.box {
+    width: 500px;
+    height: 200px;
+}
+
+th {
+    background-color: rgb(165, 163, 163);
+}
+
+.total td {
+    background-color: rgb(165, 163, 163);
+}

@@ -1,0 +1,13 @@
+#div1 {
+    width: 400px;
+    height: 200px;
+    border-style: double none;
+    border-color: brown green;
+    border-width: 20px;
+    border-radius: 200px 0;
+    box-shadow: inset 0 0 50px 50px goldenrod;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transition: 1s;
+}

@@ -1,0 +1,16 @@
+.box{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.banner{
+    position:absolute;
+    top: 20px;
+    left: -20px;
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: red;
+    overflow: hidden;
+    text-overflow: clip; 
+}

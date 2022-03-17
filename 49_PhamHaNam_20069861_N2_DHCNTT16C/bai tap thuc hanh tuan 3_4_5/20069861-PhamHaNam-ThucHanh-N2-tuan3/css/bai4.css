@@ -1,0 +1,45 @@
+* {
+    font-family: 'Trebuchet MS', 'Arial', 'Helvetica', 'sans-serif';
+    color: #993738;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+table th,
+tr,
+td {
+    border: 1px solid rgb(122, 32, 32);
+}
+
+td {
+    color: black;
+}
+
+th {
+    background-color: #993738;
+    color: azure;
+}
+
+tr th:first-child,
+tr td:first-child {
+    text-align: left;
+    padding-right: 100px;
+}
+
+tr th:last-child,
+tr td:last-child {
+    text-align: right;
+    padding-left: 60px;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(158, 151, 151);
+}

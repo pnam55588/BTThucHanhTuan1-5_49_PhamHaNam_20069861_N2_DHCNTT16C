@@ -1,0 +1,79 @@
+.bai2a{
+    width: 500px;
+}
+
+.bai2b{
+    width: 580px;
+    height: 150px;
+    flex-direction: column;
+    position:relative;
+}
+
+.content{
+    margin: 2px;
+    width: 570px;
+    height: 145px;
+}
+
+.banner{
+    margin: 2px;
+    height: 45px;
+    width: 570px;
+    font-size: x-large;
+    color: aliceblue;
+    background-color:darkmagenta;
+    font-weight: bold;
+}
+
+.style{
+    font-size: x-large;
+    position: absolute;
+    font-weight: bold;
+}
+.colorful-style{
+    top: 20px;
+    left: 20px;
+    text-shadow: 4px 5px 5px green, -3px -3px 2px #FF0000;
+}
+.inset-effect{
+    top: 20px;
+    left: 210px;
+    background-color:plum;
+    padding: 0 10px 0 10px;
+    color: darkmagenta;
+}
+.double-font{
+    top: 20px;
+    left: 410px;
+    text-shadow: 0 -8px 0 palevioletred;
+}
+.glossy-style{
+    top: 60px;
+    left: 20px;
+    background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.grunge-style{
+    top: 60px;
+    left: 210px;
+    background-color: black;
+    padding: 1px 10px 1px 10px;
+}
+.grunge-style div{
+    background: -webkit-linear-gradient(70deg, red, black 50%,red, black );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.neon-glow{
+    top: 60px;
+    left: 410px;
+    background-color: black;
+    padding: 1px 10px 1px 10px;
+}
+.neon-glow div{
+    color:deepskyblue; 
+    text-shadow: 0px 1px 5px deepskyblue,0px -1px 5px deepskyblue ;
+}
+

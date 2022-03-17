@@ -1,0 +1,24 @@
+.box{
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+}
+
+
+.logo{
+    text-align: center;
+    width: 104px;
+    height: 110px;
+    border: 1px solid black;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+.logo:hover {
+    border: 4px double black;
+}

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+li{
+    display: inline;
+    line-height: 50px;
+}
